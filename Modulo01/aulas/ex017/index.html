@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios HTML</title>
+</head>
+<body>
+    <h1>Reproduzindo Audios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!-- <audio src="midias/For Granted - Dyalla.mp3" controls autoplay></audio> -->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midias/For Granted - Dyalla.mp3" type="audio/mpeg">
+        <source src="midias/For Granted - Dyalla.ogg" type="audio/ogg">
+        <source src="midias/For Granted - Dyalla.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midias/For Granted - Dyalla.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+</body>
+</html>
