@@ -6,6 +6,6 @@
 </head>
 <body>
     <h1>Curso de HTML-CSS do Curso em Vídeo</h1>
-    <p>Veja meus exercícios e desafios <a href="index.html">aqui</a></p>
+    <p><a href="index.html">Meu Site</a></p>
 </body>
 </html>
