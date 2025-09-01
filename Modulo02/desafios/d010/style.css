@@ -166,3 +166,11 @@
     footer > p{
         text-align: center;
     }
+    footer > p > a{
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    footer > p > a:hover{
+        text-decoration: underline;
+    }
