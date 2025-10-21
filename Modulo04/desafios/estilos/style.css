@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+    height: 10vh;
+    background: black url(../imagens/fundo-madeira.jpg) center no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.celular{
+    margin: auto;
+    position: relative;
+    width: 309px;
+    aspect-ratio: 10 / 22;
+    background: url(../imagens/frame-iphone.png) no-repeat center;
+    background-size: contain;
+    overflow: hidden;
+}
+.celular iframe{
+    position: absolute;
+    top: 106px;
+    left: 21px;
+    width: 267px;
+    height: 473px;
+    border: none;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.celular iframe::-webkit-scrollbar{
+    display: none;
+}
+.logo > a > img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 4px 4px 11px #0000004d;
+}
+a > img:hover{
+    transform: translate(-3px, -3px);
+    transition: transform 0.9s ease;
+    transition: border 2.5s ease;
+    border: 1px solid blue;
+    border: 3px solid white;
+    box-shadow: 5px 5px 11px #0000005b         
+}
+.home{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.youtube{
+    position: absolute;
+    top: 84px;
+    right: 10px;
+}
+.github{
+    position: absolute;
+    top: 158px;
+    right: 10px;
+}
+.instagram{
+    position: absolute;
+    top: 232px;
+    right: 10px;
+}
+.twitter{
+    position: absolute;
+    top: 306px;
+    right: 10px;
+}
+.facebook{
+    position: absolute;
+    top: 380px;
+    right: 10px;
+}
