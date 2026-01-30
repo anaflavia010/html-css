@@ -1,0 +1,27 @@
+@charset "UTF-8";
+div.container{
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(4, 1fr);
+}
+div.caixa1{
+    background-color: aqua;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+div.caixa2{
+    background-color: chartreuse;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+div.caixa3{
+    grid-row-start: 2;
+    background-color: blueviolet;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
