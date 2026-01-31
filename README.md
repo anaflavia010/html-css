@@ -6,6 +6,6 @@
 </head>
 <body>
     <h1>Curso de HTML-CSS do Curso em Vídeo</h1>
-    <p><a href="https://anaflavia010.github.io/html-css/">Meu Site</a></p>
+    <p><a href="https://anaflavia010.github.io/html-css/">Exercicíos e Desafios do Curso de HTML-CSS</a></p>
 </body>
 </html>
